@@ -9,3 +9,7 @@ def display_even_indices_vertically(input_str):
         print(char)
 
 # Print and display the result
+user_input=input("Enter a word: ")
+print(f"Original word is {user_input}")
+print("Printing only even index chars")
+display_even_indices_vertically(user_input)
